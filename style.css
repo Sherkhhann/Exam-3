@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+}
+.menu-firsttext img{
+    background-color: #272727;
+}
+.menu{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+    gap: 600px;
+    padding: 6px 0px;
+    padding-left: 20px;
+}
+.menu-firsttext p{
+    color: white;
+    padding: 0px 24px;
+}
+.menu-firsttext p:hover{
+    color: black;
+    padding: 10px 24px;
+    background-color: gray;
+}
+.menu-firsttext {
+    display: flex;
+    align-items: center;
+}
+.menu-button a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    background-color: #d400b3;
+    padding: 8px 40px;
+    z-index: 2;
+    text-transform: uppercase;
+}
+.menu-button a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: gray;
+    padding: 8px 40px;
+}
+
+.container-first-watch img:hover{
+    padding-right: 150px;
+    background-color: white;
+    transition: 1s;
+    border-radius: 20px;
+    
+}
+.container-first-watch:hover{
+    color: #d400b3;
+    transition: 4s;
+}
+.discover{
+    width: 40%;
+    position: relative;
+    background-color: black;
+}
+.discover h1{
+    font-size: 84px;
+    padding-top: 40px;
+}
+.discover p{
+    font-size: 20px;
+    width: 108%;
+    position: relative;
+    z-index: 3;
+    padding: 40px 0px;
+}
+.container-first{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+}
+.container-first-container{
+    display: flex;
+    align-items: center;
+    padding-left: 90px;
+    position: relative;
+}
+.container-first-image{
+    position: relative;
+    width: 57%;
+}
+.container-first-image div img{
+    position: absolute;
+    z-index: 5;
+    width: 20%;
+    top: 80px;
+    left: 70px;
+}
+.container-first-image img{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: -395px;
+    left: 41px;
+}
+.container-first-watch{
+    display: flex;
+    padding-left: 90px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #262627;
+    width: 30%;
+    gap: 15px;
+}
+.container-second{
+    background-color: #262627;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 380px;
+    align-items: center;
+    gap: 120px;
+}
+.container-second-text1{
+    color: white;
+    width: 50%;
+    display: flex;
+    gap: 80px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+.container-second-text{
+    color: lightgray;
+    font-size: 20px;
+    width: 40%;
+    padding-left: 110px;
+}
+.container-second-text p{
+    width: 60%;
+}
+.container-third-first-conteiner{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+.container-third-second-conteiner{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+.container-third{
+    background-color: #262627;
+    padding-bottom: 140px;
+}
+.conteiner-fouth{
+    background-color: black;
+    padding-bottom: 140px;
+}
+.conteiner-fouth h1{
+    color: white;
+    text-align: center;
+    padding-top: 170px;
+    padding-bottom: 60px;
+    font-size: 3em;
+}
+.conteiner-fouth-conteiner{
+    width: 25%;
+    border: 1px solid #858586;
+    background-color: #262627;
+    padding: 20px 0px 60px 15px;
+}
+.conteiner-fouth-conteiner h3{
+    color: white;
+    padding: 15px 0px;
+}
+.conteiner-fouth-conteiner p{
+    color: gray;
+    line-height: 25px;
+}
+.conteiner-fouth-mainconteiner{
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+}
+.conteiner-fivth{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.conteiner-fivth-left{
+    width: 40%;
+}
+.conteiner-fivth-left-div{
+    padding: 40px 0px;
+}
+.conteiner-fivth-left-div div{
+    display: flex;
+    justify-content: space-between;
+}
+.conteiner-fivth-left-div img{
+    width: 100%;
+}
+.conteiner-fivth-left-div h1{
+    font-size: 29px;
+}
+.hh1{
+    font-size: 35px;
+    padding: 20px 0px;
+}
+.pp1{
+    font-size: 20px;
+    padding: 20px 0px;
+    padding-bottom: 40px;
+}
+.conteiner-fivth h1{
+    color: white;
+}
+span{
+    color: #d400b3;
+}
+.conteiner-fivth{
+    background-color: black;
+    padding-bottom: 50px;
+}
+.conteiner-fivth p{
+    color: gray;
+    padding: 10px 0px;
+}
+.conteiner-fivth-right{
+    width: 40%;
+    padding-top: 40px;
+}
+.conteiner-fivth-left-second-div{
+    text-align: end;
+}
+.conteiner-sixth-one{
+    background-color: #262627;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner-sixth-one p{
+    padding-bottom: 20px;
+}
+.conteiner-sixth-second{
+    background-color: black;
+    width: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteiner-sixth{
+    display: flex;
+    height: 120px;
+}
+.conteiner-sixth-one p{
+    color: gray;
+}
+.conteiner-sixth-second h1{
+    font-size: 40px;
+}
+.conteiner-seventh-conteiner{
+    position: relative;
+    width: 30%;
+    text-align: center;
+}
+.conteiner-seventh-conteiner .ima{
+    position: absolute;
+    display: block;
+    top: 160px;
+    left: 165px;
+    z-index: 1;
+}
+.conteiner-seventh-conteiner h1{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: white;
+}
+.conteiner-seventh-conteiner .imm{
+    width: 90%;
+}
+.conteiner-seventh-conteiner a{
+    text-decoration: none;
+    color: white;
+    background-color: #d400b3;
+    padding: 6px 20px;
+    text-align: center;
+}
+.conteiner-seventh-conteiner a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: gray;
+    padding: 6px 20px;
+    text-align: center;
+}
+.conteiner-seventh{
+    background-color: #262627;
+    display: flex;
+    justify-content: center;
+    height: 680px;
+    align-items: center;
+}
+.footer{
+    background-color: black;
+    position: relative;
+    padding-top: 120px;
+}
+.footer-conteiner{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 130px;
+}
+.footer-conteiner-first, .footer-conteiner-second{
+    display: flex;
+    gap: 240px;
+}
+.footer-conteiner-first{
+    padding-top: 75px;
+    padding-bottom: 40px;
+}
+.footer-conteiner img{
+    width: 60%;
+    text-align: center;
+}
+.footer-img {
+    border: 1px solid #676768;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #313132;
+}
+.footer h1{
+    color: white;
+    text-align: center;
+    font-size: 38px;
+    padding: 15px 0px;
+}
+.footer p{
+    color: gray;
+    text-align: center;
+    line-height: 25px;
+}
+.middle .footer-img{
+    position: absolute;
+    top: 380px;
+    left: 39%;
+    opacity: 0.7;
+}
+.footer2{
+    display: flex;
+    justify-content: center;
+}
+.footer2-container{
+    width: 80%;
+    background-color: #313132;
+    padding-top: 170px;
+    padding-bottom: 60px;
+    border-bottom: 4px solid #d400b3;
+}
+.footer3 a{
+    color: gray;
+    padding: 0px 20px;
+}
+.footer3{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+    padding-top: 70px;
+}
+.footer3-conteiner{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #676768;
+}
+.footer3-conteiner div{
+    display: flex;
+    align-items: center;
+}
+.footer4{
+    padding-bottom: 30px;
+}
+.hand {
+    position: absolute;
+    left: 480px;
+}
